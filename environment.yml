@@ -1,0 +1,20 @@
+name: ecg_clr
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - torch
+    - torchvision
+    - torchaudio
+    - tensorboard
+    - scikit-learn
+    - pandas
+    - matplotlib
+    - seaborn
+    - jupyterlab
+    - ipywidgets
+    - tqdm
+    - wfdb
+    - h5py
